@@ -11,10 +11,6 @@
  
 // Intentionally incorrect program to demonstrate invalid Java identifiers.
 
-/*class Switch{
-	String SwitchStatus = "On";
-	
-}*/
 class Switch{
 	String SwitchStatus = "On";
 	
@@ -22,7 +18,7 @@ class Switch{
 
 public class IdentifierRules {
 	
-    /*public static void 1start() { 
+    /*public static void 1start() { ***identifier starts with number***
 		//System.out.println("Static Method Output");
 	}*/
 	    public static void start() { 
@@ -31,33 +27,34 @@ public class IdentifierRules {
 
     public static void main(String[] args) {
 
-        //int 2ndPlace = 2;
-        int Place2nd = 2;
+        //int 2ndPlace = 2; ***identifier starts with number***
+        int Place2nd = 2; 
 
-        //int first name = 10;
+        //int first name = 10; ***identifier has a white space***
         int first_name = 10;
 
-        //int price# = 99;
+        //int price# = 99; ***identifier has a special character***
         int price = 99;
         
-		//int user-name = 25;
+		//int user-name = 25; ***identifier has a special character***
 		int username = 25;
 
-        //int class = 1;
+        //int class = 1; ***used reserved word as identifier***
 		int classs = 1;
 		
-		//int double = 3;
+		//int double = 3; ***used reserved word as identifier***
 		int doublee = 3;
         
-        //int Score = 10;
+        //int Score = 10; ***identifier name didnt align with the call method***
         int score = 10;
         System.out.println(score);
 		
 		System.out.println("This program is executed after all errors are rectified.");
 
 
-        //1start();
+        //1start(); ***didn't align with identifier***
         start();
     }
+
 
 }
