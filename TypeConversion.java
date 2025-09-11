@@ -9,7 +9,7 @@
   
  **********************************************************************/
  
-public class TypeConversionTypeConversion {
+public class TypeConversion {
     public static void main(String[] args) {
         
         // Widening (Implicit Conversion)
